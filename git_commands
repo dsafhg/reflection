@@ -1,0 +1,5 @@
+git log --stat
+git diff identifier1 identifier2
+git checkout -> restoring previous version 
+git init 
+git status
