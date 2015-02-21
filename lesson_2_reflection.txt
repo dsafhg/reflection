@@ -3,3 +3,6 @@ One commit per logical change
 
 What happens when you initialize a repository? Why do you need to do it?
 It creates a .git file which tracks the changes in files in the directory. Nothing is commited 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is intermediate step before commit. You can place a couple of file in the staging area and commit them at once
