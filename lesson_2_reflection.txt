@@ -2,7 +2,23 @@ When to commit?
 One commit per logical change
 
 What happens when you initialize a repository? Why do you need to do it?
-It creates a .git file which tracks the changes in files in the directory. Nothing is commited 
+It creates a .git file which tracks the changes in files in the directory. Nothing is committed 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is intermediate step before commit. You can place a couple of file in the staging area and commit them at once
+
+How can you use the staging area to make sure you have one commit per logical change?
+When I make a logical change in the program I can stage the files. Then when I am ready with all files, i could commit then.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams are pretty useful, they promote understanding quite clear and remove the real fuzz.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Because it is possible to show differences really quick.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging -> + quick, efficient
+					 - limited in decision power
+Manual merging	-> 	 + you know what is going on
+					 - slow and painful 
